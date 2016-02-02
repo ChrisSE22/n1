@@ -4,7 +4,7 @@ var http = require('http');
 http.createServer(function(request,response) {
 	
 	response.writeHead(200);
-	response.write("This is Gooey");
+	response.write("This is Gooey\n");
 	
 	setTimeout(function(){
 		
